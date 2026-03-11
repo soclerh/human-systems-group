@@ -27,9 +27,7 @@ export const Navigation = () => {
                 }`}>
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                     <a href="/" className="flex items-center gap-2 cursor-pointer">
-                        <div className="w-8 h-8 bg-[#0A1128] flex items-center justify-center">
-                            <div className="w-4 h-4 border border-white/20"></div>
-                        </div>
+                        <img src="/logo.jpeg" alt="Human Systems Group" className="h-10 w-auto object-contain" />
                         <span className="font-bold tracking-tighter text-xl uppercase text-slate-600">Human Systems Group</span>
                     </a>
 

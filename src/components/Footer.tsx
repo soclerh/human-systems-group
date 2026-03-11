@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer className="bg-white py-16 border-t border-slate-100 px-6">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
                 <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#0A1128]"></div>
+                    <img src="/logo.jpeg" alt="Human Systems Group" className="h-8 w-auto object-contain" />
                     <span className="font-black text-xs uppercase tracking-[0.2em] text-slate-600">Human Systems Group</span>
                 </div>
 
