@@ -13,7 +13,7 @@ export const Hero = () => {
     <section
       id="top"
       // Changed h-screen to min-h-screen and added padding for fixed navs
-      className="relative min-h-screen flex items-center px-6 py-20 overflow-hidden bg-[#F8F9FA] mt-20"
+      className="relative min-h-screen flex items-center px-6 py-20 overflow-hidden bg-[#F8F9FA] lg:mt-20"
     >
       {/* Background Layer */}
       <div className="absolute inset-0 z-0">
