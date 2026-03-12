@@ -2,7 +2,6 @@
 
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import Link from "next/link";
 
 export const Contact = () => {
   const handleImgError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
@@ -45,14 +44,16 @@ export const Contact = () => {
               </div>
             </div>
 
-            <Link href="/contact">
-              <div className="flex lg:justify-end cursor-pointer">
-                <button className="bg-[#0A1128] text-white px-12 py-6 text-xs uppercase tracking-[0.3em] font-bold hover:bg-[#C5A059] transition-all flex items-center gap-4">
-                  Request a meeting
-                  <ArrowRight size={16} />
-                </button>
-              </div>
-            </Link>
+            {/* Changed Link to a mailto anchor tag */}
+            <div className="flex lg:justify-end">
+              <a
+                href="mailto:contact@humansystemsgroup.com?subject=Meeting Request"
+                className="bg-[#0A1128] text-white px-12 py-6 text-xs uppercase tracking-[0.3em] font-bold hover:bg-[#C5A059] transition-all flex items-center gap-4 no-underline"
+              >
+                Request a meeting
+                <ArrowRight size={16} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
