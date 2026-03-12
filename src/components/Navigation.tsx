@@ -26,20 +26,20 @@ export const Navigation = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 w-full z-50 transition-all duration-500 ${
+        className={`top-0 w-full z-50 transition-all duration-500 ${
           scrolled
-            ? "bg-[#0A1128]/95 backdrop-blur-md border-b border-white/10 py-4"
+            ? "bg-[#02142a] backdrop-blur-md border-b border-white/10 py-4"
             : "bg-[#02142a] py-4"
         }`}
       >
         <div className="max-w-332 mx-auto px-6 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 cursor-pointer">
             <img
-              src="/logo.jpeg"
+              src="/logo3.png"
               alt="Human Systems Group"
-              className="h-20 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
-            <span className="font-bold tracking-tighter text-xl uppercase text-white">
+            <span className="font-bold text-xl uppercase text-white">
               Human Systems Group
             </span>
           </a>
