@@ -14,7 +14,7 @@ export const Brands = () => {
     {
       name: "Socle RH",
       tag: "Org Architecture",
-      desc: "Structuring, governance, trajectories, and skill development—driven by clarity and results.",
+      desc: "Structuring, governance, trajectories, and skill development driven by clarity and results.",
       href: "https://soclerh.fr",
     },
     {
@@ -24,22 +24,16 @@ export const Brands = () => {
       href: "https://soclerh.fr",
     },
     {
-      name: "Kora",
-      tag: "Ecosystems",
-      desc: "B2B matching infrastructure. A quality-oriented platform for structuring access to partners and opportunities.",
-      href: "https://korab2b.com/",
+      name: "Socle RH Parler",
+      tag: "Consultant Network",
+      desc: "A network of consultants dedicated to delivering specialized human system expertise across territories and sectors.",
+      href: "https://soclerh.fr",
     },
     {
-      name: "Capahome",
-      tag: "Human Services",
-      desc: "Territorial licensing, standardization of methods, tools, and processes. A network logic operated as infrastructure.",
-      href: "https://capahome.fr/",
-    },
-    {
-      name: "Capabilis",
-      tag: "Employability",
-      desc: "Public-private interface: trajectories, skills, inclusion, and social performance platform.",
-      href: " https://capabilis.fr/",
+      name: "SOCLE RH Partner",
+      tag: "Partnership",
+      desc: "Strategic partnership platform connecting organizations with certified human system specialists. Shared infrastructure, distinct value.",
+      href: "https://soclerh.fr",
     },
   ];
 
@@ -70,7 +64,7 @@ export const Brands = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-slate-200 border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-slate-200 border border-slate-200">
           {brands.map((brand, i) => (
             <div
               key={i}
@@ -106,9 +100,6 @@ export const Brands = () => {
             </div>
           ))}
 
-          <div className="bg-slate-50 p-10 flex items-center justify-center border-l border-slate-200 opacity-60 font-medium text-slate-600 text-sm italic">
-            Additional infrastructure layers under development...
-          </div>
         </div>
       </div>
     </section>
