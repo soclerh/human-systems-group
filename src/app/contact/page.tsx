@@ -90,7 +90,7 @@ export default function ContactPage() {
               {
                 id: "02",
                 title: "Brand Integration",
-                desc: "Direct access to specialized operating brands (Socle RH, Kora, etc.) depending on your localized human system requirements.",
+                desc: "Direct access to specialized operating brands (Socle RH, Socle RH Parler, etc.) depending on your localized human system requirements.",
               },
               {
                 id: "03",
